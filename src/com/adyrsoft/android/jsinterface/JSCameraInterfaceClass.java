@@ -16,15 +16,21 @@ public class JSCameraInterfaceClass {
 		
 	}
 	private static final String TAG = "JSCameraInterfaceClass";
-	private Context mContext;
+	
 	private JSCameraInterface mJSInterface;
 	private WebView mWebView;
 	
 	//String references to JS function callbacks
 	private String mPictureTakenJSCallback;
 	
-	public JSCameraInterfaceClass(Context context, WebView wv, JSCameraInterface jSInterface) {
-		this.mContext = context;
+	/**
+	 * Adds the interface object jSInterface to the provided WebView wv and instantiates this object.
+	 * @param context
+	 * @param wv
+	 * @param jSInterface
+	 */
+	public JSCameraInterfaceClass(WebView wv, JSCameraInterface jSInterface) {
+		//this.mContext = context;
 		this.mJSInterface = jSInterface;
 		this.mWebView = wv;
 		this.mPictureTakenJSCallback = "";
