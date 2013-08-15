@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc 
+            access="public" 
+            author="true" 
+            classpath="/home/adrian/app/adt-bundle-linux-x86_64/sdk/platforms/android-17/android.jar; libs/android-support-v4.jar" 
+            destdir="doc" 
+            doctitle="JSCameraInterface" 
+            nodeprecated="false" 
+            nodeprecatedlist="false" 
+            noindex="false" 
+            nonavbar="false" 
+            notree="false" 
+            packagenames="com.adyrsoft.android.js.camera,com.adyrsoft.android.js.statesaver,com.adyrsoft.android.js.facebook" 
+            source="1.6" 
+            sourcepath="src" 
+            splitindex="true" 
+            use="true" 
+            version="true">
+            <link href="file:/home/adrian/app/adt-bundle-linux-x86_64/sdk/docs/reference/"/>
+        </javadoc>
+    </target>
+</project>
