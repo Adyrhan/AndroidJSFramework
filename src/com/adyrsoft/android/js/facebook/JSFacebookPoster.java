@@ -250,7 +250,7 @@ public class JSFacebookPoster {
 					result = postMessage(accessToken, userId, message);
 				}
 				
-				CookieManager.getInstance().removeAllCookie();
+				
 				
 				if(!result) {
 					mUiHandler.post(new Runnable() {
